@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Register</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/forms.css">
+    <style>
+    </style>
+</head>
+<body id="body">
+    <header>
+        <h1 class="logo">MovieApp</h1>
+        <nav id="main-nav" class="container responsive">
+            <ul class="navbar__items">
+                <li><a class="link" href="#">Filmler</a> </li>
+                <li><a  class="link"href="#">Diziler</a></li>
+                <li><a class="link login" href="#">Login</a></li>
+                <li>
+                    <a class="link nav-m" href="">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="signup__page">
+        <div class="container">
+        <h1 class="signup__title">Create Your Account</h1>
+        <form action="" class="signup__form">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname">
+            
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname">
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password">
+
+            <label for="gender">Gender</label>
+            <select  id="gender">
+                <option value="">Select</option>
+                <option value="">Kadın</option>
+                <option value="">Erkek</option>
+
+            </select>
+
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">Agree to
+                <a href="#">Terms &amp; Conditions</a>
+           </label>
+           
+           <button type="submit" class="second__button">Register</button>
+        </form>
+    </div>
+    </main>
+
+
+<footer>
+    <div class="row container">
+        <div class="col_2 footer__items"">
+            <ul class="footer__link">
+                <li> <a  class="footer__link" href="#">About</a></li>
+                <li> <a  class="footer__link" href="#">Blog</a></li>
+                <li> <a  class="footer__link" href="#">Forum</a></li>
+                <li> <a  class="footer__link" href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col_2 footer__icons">
+            <a href="https://www.facebook.com"><img src="img/Facebook_Logo_(2019).png" alt=""></a> 
+            <a href="https://www.twitter.com"><img src="img/twitter_circle-512.png" alt=""></a>
+            <a href="https://www.instagram.com"><img src="img/instagram_logo.png" alt=""></a>
+        </div>
+    </div>
+</footer>
+
+    <!-- <div class="smooth_arrow">
+        <a href="#body" id="backtotop"><i class="fa-solid fa-circle-up"></i></a>
+    </div>  -->
+
+</body>
+</html>
