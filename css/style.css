@@ -406,3 +406,8 @@ footer{
 }
 
 
+.logo-inline{
+    display: inline-block;
+    margin: 0;
+}
+
